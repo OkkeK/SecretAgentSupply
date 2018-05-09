@@ -165,19 +165,25 @@ footer {
   height: 5rem;
 }
 
+/* Media Query for Tablet Landscape */
+
 @media only screen and (max-width: 1024px) {
   .site-width {
     width: auto;
     padding-left: 0;
   }
 
-  #width-smaller-1024px {
+  /* Toggle view of NavBar */
+
+  #navbar-width-smaller-1024px {
     display: block;
   }
 
-  #width-greater-1024px {
+  #navbar-width-greater-1024px {
     display: none;
   }
+
+  /* Hide glasses */
 
   #glasses {
     display: none;
@@ -192,19 +198,17 @@ footer {
   }
 }
 
+/* Media Query for Smartphone */
+
 @media only screen and (max-width: 470px) {
-  .site-width {
-    width: auto;
-    padding-left: 0;
-  }
+
+  /* hide Watch */
 
   #watch {
     display: none;
   }
 
-  .main-container_item {
-    width: 90%;
-  }
+  /* Changes Headline */
 
   .background-image {
     height: 15rem;
@@ -224,10 +228,18 @@ footer {
     margin: 1rem 0rem 0.25rem 2rem;
   }
 
+  /* Changes Main */
+
   .main-container {
     justify-content: center;
     width: 100%;
   }
+
+  .main-container_item {
+    width: 90%;
+  }
+
+  /* Changes Location and Footer */
 
   .location-container {
     flex-direction: column;
