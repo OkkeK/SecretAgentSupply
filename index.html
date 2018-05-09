@@ -24,7 +24,7 @@
           </div>
         </div>
       </div>
-      <nav>
+      <nav id="width-greater-1024px">
         <div class="navbar site-width">
           <span><a href="#">Eyewear</a></span>
           <span><a href="#">Apparel</a></span>
@@ -34,39 +34,48 @@
           <span><a href="#">Contact</a></span>
         </div>
       </nav>
+      <nav id="width-smaller-1024px">
+        <div class="navbar site-width">
+          <span><a href="#">Menu</a></span>
+        </div>
+      </nav>
     </header><!-- End of Header -->
 
     <main>
-      <div class="main-container">
-        <div class="main-container_item">
-          <img src="./ressources/images/pen.png" alt="Exploding Pen">
-          <h3>Exploding Pen</h3>
+      <section class="main-container site-width">
+        <div class="main-container_item" id="pen">
+          <div class="main-container_item_img">
+            <img src="./ressources/images/pen.png" alt="Exploding Pen">
+          </div>
+          <h2>Exploding Pen</h2>
         </div>
-        <div class="main-container_item">
-          <img src="./ressources/images/watch.png" alt="Cellular Watch">
-          <h3>Cellular Watch</h3>
+        <div class="main-container_item" id="watch">
+          <div class="main-container_item_img">
+            <img src="./ressources/images/watch.png" alt="Cellular Watch">
+          </div>
+          <h2>Cellular Watch</h2>
         </div>
-        <div class="main-container_item">
-          <img src="./ressources/images/glasses.png" alt="Thermal Glasses">
-          <h3>Thermal Glasses</h3>
+        <div class="main-container_item" id="glasses">
+          <div class="main-container_item_img">
+            <img src="./ressources/images/glasses.png" alt="Thermal Glasses">
+          </div>
+          <h2>Thermal Glasses</h2>
         </div>
-      </div>
-      <div class="location-container">
-        <div class="location-container_location">
-          <h3>Location</h3>
+      </section>
+      <section class="location-container site-width">
+        <div class="location-container_item">
+          <h2>Location</h2>
           <p>-47.346436, 84.32354</p>
         </div>
-        <div class="location-container_hours">
-          <h3>Hours</h3>
+        <div class="location-container_item">
+          <h2>Hours</h2>
           <p>0800 - 1800</p>
         </div>
-        <h3>Location</h3>
-        <h3>HOURS</h3>
-      </div>
+      </section>
     </main>
 
     <footer>
-      <div class="footer-container">
+      <div class="footer-container site-width">
         <h3>Copyright Secret Agent Supply Inc</h3>
       </div>
     </footer>
